@@ -8,8 +8,8 @@
     background-color: aqua;
 }
 .link{
-    padding-top: 100px;
     display: flex;
+    align-items: center;
 }
 a{
     padding-left: 50px;
