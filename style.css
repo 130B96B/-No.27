@@ -20,7 +20,7 @@ a{
     padding-left: 50px;
 }
 main{
-    max-width: 60%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     height: 1200px;
@@ -40,12 +40,16 @@ ul {
     list-style: none;
   }
 .info{
-    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 30px;
     border-bottom: solid 2px #000;
 }
+.date{
+    margin-left: 10%;
+}
 .title{
-    margin-left: 520px;
+    margin-right: 5%;
 }
 .pictures{
     display: flex;
