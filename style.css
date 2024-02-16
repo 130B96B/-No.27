@@ -22,7 +22,7 @@ a{
 main{
     max-width: 1200px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     height: 1200px;
 }
 .main h1{
@@ -44,19 +44,24 @@ ul {
     justify-content: space-between;
     margin-bottom: 30px;
     border-bottom: solid 2px #000;
+    margin-left: 5%;
 }
-.date{
-    margin-left: 10%;
-}
+@media screen and (max-width: 800px) {
+    .info{
+        flex-direction: column;
+    }
+  }
+
+
 .title{
-    margin-right: 5%;
+    padding-right: 50%;
 }
 img{
     width: 100%;
 }
 .pictures{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .contact{
     margin-top: 50px;
@@ -94,6 +99,8 @@ img{
     text-align: center;
 }
 .footer{
+    margin: 0px;
+    padding: 0px;
     bottom: 0;
     background-color: aqua;
 }
