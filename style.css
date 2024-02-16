@@ -41,7 +41,6 @@ ul {
   }
 .info{
     display: flex;
-    justify-content: space-between;
     margin-bottom: 30px;
     border-bottom: solid 2px #000;
     margin-left: 5%;
@@ -52,7 +51,7 @@ ul {
     }
 }
 .title{
-    padding-right: 50%;
+    margin-left: 30px;
 }
 img{
     width: 100%;
