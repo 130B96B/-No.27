@@ -96,12 +96,10 @@ img{
     text-align: center;
 }
 .footer{
-    margin: 0px;
-    padding: 0px;
-    bottom: 0;
     background-color: aqua;
 }
 .copyright{
-    padding-top: 25px;
+    padding: 25px 0;
+    padding-right: 40px;
     text-align: right;
 }
